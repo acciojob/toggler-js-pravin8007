@@ -20,13 +20,19 @@ let selectedCheckboxes = [];
 
         function getCheckboxColor(id) {
             switch (id) {
-                case 'good': return '#f2f2f2';
-                case 'cheap': return '#d9d9d9';
-                case 'fast': return '#bfbfbf';
+                case 'g1': return '#f2f2f2';
+                case 'g2': return '#d9d9d9';
+                case 'g3': return '#bfbfbf';
                 default: return '';
             }
         }
+        document.getElementById('g1').addEventListener('click', () => toggleCheckbox('g1'));
+        document.getElementById('g2').addEventListener('click', () => toggleCheckbox('g2'));
+        document.getElementById('g3').addEventListener('click', () => toggleCheckbox('g3'));
 
-        document.getElementById('good').addEventListener('click', () => toggleCheckbox('good'));
-        document.getElementById('cheap').addEventListener('click', () => toggleCheckbox('cheap'));
-        document.getElementById('fast').addEventListener('click', () => toggleCheckbox('fast'));
+
+
+
+
+
+

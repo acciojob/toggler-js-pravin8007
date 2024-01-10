@@ -22,6 +22,6 @@
             border-radius: 5px;
             transition: background-color 0.3s;
         }
-        .g1 { background-color: #f2f2f2; }
-        .g2 { background-color: #d9d9d9; }
-        .g3 { background-color: #bfbfbf; }
+        #g1 { background-color: #f2f2f2; }
+        #g2 { background-color: #d9d9d9; }
+        #g3 { background-color: #bfbfbf; }
