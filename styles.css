@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+}
+        h2 {
+            color: #333;
+        }
+        .toggle-container {
+            display: flex;
+			flex-direction : column ;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .toggle {
+            cursor: pointer;
+            padding: 10px;
+			height : 10px;
+			width : 40px;
+			margin : 5px;
+			display : flex ;
+			justify-content : center;
+			align-items : center ;
+            border: 2px solid #333;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .g1 { background-color: #f2f2f2; }
+        .g2 { background-color: #d9d9d9; }
+        .g3 { background-color: #bfbfbf; }
