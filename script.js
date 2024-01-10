@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const firstSelectedCheckbox = document.getElementById(selectedCheckboxes.shift());
             firstSelectedCheckbox.checked = false;
         }
+		
 
         if (selectedCheckboxes.includes(id)) {
             selectedCheckboxes = selectedCheckboxes.filter(checkboxId => checkboxId !== id);
